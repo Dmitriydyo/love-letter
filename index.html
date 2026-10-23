@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Тебе, с любовью ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true" id="floatingHearts"></div>
+
+  <main class="page">
+    <div class="eyebrow"><span class="tiny-heart">♥</span> JUST FOR YOU <span class="tiny-heart">♥</span></div>
+    <h1>У меня есть кое-что<br><em>для тебя...</em></h1>
+    <p class="intro">Маленькое письмо для самого дорогого человека.</p>
+
+    <section class="gift" aria-label="Романтический конверт">
+      <div class="sparkle sparkle-one">✦</div>
+      <div class="sparkle sparkle-two">✧</div>
+      <button class="envelope-button" id="openLetter" aria-label="Открыть письмо">
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <article class="letter" id="letter">
+            <div class="letter-inner">
+              <div class="letter-top">♡ &nbsp; A LITTLE NOTE FOR YOU &nbsp; ♡</div>
+              <h2>Светлане</h2>
+              <p>Иногда мне кажется, что обычных слов слишком мало, чтобы рассказать, как много ты для меня значишь.</p>
+              <p>Ты делаешь мои дни теплее, улыбку — искреннее, а самые простые моменты — особенными. Мне нравится просто быть рядом с тобой, слушать тебя, смеяться вместе и создавать наши маленькие воспоминания.</p>
+              <p>Я не обещаю, что каждый день будет идеальным. Но я хочу стараться, поддерживать тебя, радовать и напоминать, что ты очень важна для меня.</p>
+              <p>Спасибо, что ты есть в моей жизни. Если бы мне снова пришлось выбирать, я бы очень хотел снова встретить именно тебя.</p>
+              <p class="letter-signoff">Крепко обнимаю,<br><span>твой Дима ♡</span></p>
+              <div class="letter-stamp">♥</div>
+            </div>
+          </article>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">♥</div>
+        </div>
+      </button>
+      <p class="tap-hint" id="tapHint">Нажми на конверт, чтобы открыть письмо</p>
+    </section>
+
+    <button class="replay-button" id="replayLetter" hidden>Прочитать ещё раз ♡</button>
+    <footer>сделано с любовью, специально для тебя <span>♡</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
